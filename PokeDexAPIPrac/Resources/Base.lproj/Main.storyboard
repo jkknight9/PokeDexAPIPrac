@@ -13,7 +13,7 @@
         <!--Pokedex-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PokeDexAPIPrac" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="PokemonViewController" customModule="PokeDexAPIPrac" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -21,6 +21,9 @@
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="QNP-xC-uLa">
                                 <rect key="frame" x="0.0" y="88" width="375" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="U4i-fJ-Kjg"/>
+                                </connections>
                             </searchBar>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="4BE-9a-VPK">
                                 <rect key="frame" x="0.0" y="624" width="375" height="104"/>
@@ -79,6 +82,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Pokedex" id="GeH-KG-PEN"/>
+                    <connections>
+                        <outlet property="abilitiesLabel" destination="DI6-l0-VCs" id="gpD-PE-QyD"/>
+                        <outlet property="idLabel" destination="xNH-Iq-i1c" id="8tJ-4M-tmG"/>
+                        <outlet property="nameLabel" destination="DB9-yi-619" id="kQi-if-O0O"/>
+                        <outlet property="pokemonImageView" destination="CPJ-kT-zGb" id="YEa-t4-QON"/>
+                        <outlet property="searchBar" destination="QNP-xC-uLa" id="AC4-Jq-H3P"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
