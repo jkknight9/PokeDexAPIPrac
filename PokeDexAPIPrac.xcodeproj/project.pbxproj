@@ -11,6 +11,7 @@
 		E9EAE6C022372D1900844781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9EAE6BE22372D1900844781 /* Main.storyboard */; };
 		E9EAE6C222372D1C00844781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9EAE6C122372D1C00844781 /* Assets.xcassets */; };
 		E9EAE6C522372D1C00844781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9EAE6C322372D1C00844781 /* LaunchScreen.storyboard */; };
+		E9EAE6D02237355B00844781 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EAE6CF2237355B00844781 /* Pokemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		E9EAE6C122372D1C00844781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9EAE6C422372D1C00844781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9EAE6C622372D1C00844781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9EAE6CF2237355B00844781 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 		E9EAE6AE22372D1900844781 = {
 			isa = PBXGroup;
 			children = (
+				E9EAE6CF2237355B00844781 /* Pokemon.swift */,
 				E9EAE6B922372D1900844781 /* PokeDexAPIPrac */,
 				E9EAE6B822372D1900844781 /* Products */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9EAE6BB22372D1900844781 /* AppDelegate.swift in Sources */,
+				E9EAE6D02237355B00844781 /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +292,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2446Y3VTK6;
-				INFOPLIST_FILE = PokeDexAPIPrac/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PokeDexAPIPrac/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2446Y3VTK6;
-				INFOPLIST_FILE = PokeDexAPIPrac/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PokeDexAPIPrac/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
